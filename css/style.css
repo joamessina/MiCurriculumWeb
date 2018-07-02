@@ -4,9 +4,7 @@ body {
     margin: 0;
     padding: 0;
     color: #474747;
-}
-div {
-    border-radius: 5px;
+    padding-top: 50px;
 }
 h4 {
     margin-left: 5px;
@@ -24,18 +22,18 @@ a {
 	width: 80%;
 	min-height: 500px;
 	background-color: #F4EBC3;
-	padding: 20px;
+	padding: 25px;
 	box-sizing: border-box;
 }
 .derecha li {
 	border-bottom:2px dotted;
-	font-size: 25px;
 }
 .izquierda {
 	float: left;
 	width: 20%;
 	padding: 10px;
 	box-sizing: border-box;
+	position: fixed;
 }
 .yo {
     padding: 10px;
@@ -54,7 +52,6 @@ a {
 }
 .boton {
 	float: right;
-	font-size: 20px;
 	border-bottom: dotted 2px;
 	clear: both;
 	width: 100%;
@@ -75,26 +72,26 @@ a {
 	display: block;
 }
 #encabezado {
-    z-index: 1;
-    position: fixed;
-    width: 100%;
-    margin-top: -20px;
-    height: 60px;
-    background-color: #668284;
-    margin-bottom: 10px;
+	z-index: 1;
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	background-color: #668284;
+	top: 0;
+	padding: 0 25px;
+	box-sizing: border-box;
 }
 #nombre {
-    float: left;
-    margin-left: 5px;
-    padding-top: 5px;
-    font-size: 15px;
-    color: #ffffff;
+	float: left;
+	color: #fff;
+	margin: 0;
+	line-height: 50px;
+	font-weight: 400;
 }
 #email {
     float: right;
     margin-right: 5px;
     padding-top: 10px;
-    font-size: 12px;
     color: #ffffff;
 }
 #menu {
@@ -107,7 +104,6 @@ a {
     height: 40px;
     background-color: #668284;
     clear: both;
-    font-size: 14px;
     text-align: center;
     color: #ffffff;
 }
