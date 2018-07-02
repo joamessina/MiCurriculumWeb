@@ -90,15 +90,20 @@ a:hover {
     font-size: 12px;
     color: #ffffff;
 }
-#yo {
-    width: 100%;
+.yo {
     padding: 10px;
     box-sizing: border-box;
     background: #FFF;
     border: solid 1px #474747;
     transform: rotate(-5deg);
     margin: 10px;
-    z-index: 1;
+    display: block;
+}
+.yo img {
+    width: 100%;
+    border: solid 1px #474747;
+    box-sizing: border-box;
+    display: block;
 }
 #pie {
     position: relative;
