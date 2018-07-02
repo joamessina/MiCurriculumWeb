@@ -6,10 +6,6 @@ body {
     color: #474747;
     padding-top: 50px;
 }
-h4 {
-    margin-left: 5px;
-    margin-bottom: 15px;
-}
 li {
     list-style-type: square;
 }
@@ -120,12 +116,12 @@ a {
 	padding: 0;
 }
 #pie {
-    position: relative;
-    height: 40px;
-    background-color: #668284;
-    clear: both;
-    text-align: center;
-    color: #ffffff;
+	background-color: #668284;
+	clear: both;
+	text-align: center;
+	color: #fff;
+	float: right;
+	width: 80%;
 }
 #footer p {
     position: relative;
