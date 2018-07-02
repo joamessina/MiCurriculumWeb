@@ -28,6 +28,14 @@ a:hover {
     font-family: Garamond, serif;
     color: #000000;
 }
+.derecha ul{
+	font-family: Verdana;
+}
+.derecha li {
+	border-bottom:2px dotted;
+	font-family: Verdana;
+	font-size: 25px;
+}
 .izquierda {
     position: relative;
     float: left;
