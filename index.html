@@ -1,61 +1,84 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<meta charset="utf-8">
-	<title>Presentación</title>
-</head>
-<body>
-<style type="text/css">
-	
-	.derecha ul{
-font-family: Verdana;
+    <head>
+        <meta charset="utf-8">
+        <title>Joaquín G. Messina - Web Developer (Jr.)</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
 
-}
-
-.derecha li{
-	
-	border-bottom:2px dotted;
-}
-</style>
-<div id="encabezado">
-
-	<p id="nombre">Joaquín Gabriel Messina - Curriculum Web</p>
-			<a href="mailto:joaquin.messina@gmail.com"><p id="email">joaquin.messina@gmail.com</p></a>
-	</div>
-
-	<div class="izquierda">
-	<img src="joa.jpg" id="yo">
-	<a href="presentacion.html" class="boton">Presentación</a>
-	<a href="formacion.html" class="boton">Formación</a>
-	<a href="experiencia.html" class="boton">Experiencia</a>
-	<a href="portfolio.html" class="boton">Portfolio</a>
-	</div>
-	<div class="derecha">
-		<h4 style="color:#CF0000;">Quien soy</h4>
-			<h1 style="color:blue;">Joaquín Gabriel Messina</h1>
-			<h4>Datos Personales</h4>
-			<ul>
-				<li>Nombre: Joaquín Gabriel Messina.</li>
-				<li>Edad: 18 Años.</li>
-				<li>DNI: 42.346.609</li>
-				<li>Dirección: Venezuela 2441</li>
-				<li>Email: joaquin.messina@gmail.com</li>
-				<li>Telefono: +54 11-5042-1581</li>
-				<li>Skype: joaquin.messina</li>
-			</ul>
-			<br><p style="font-family: arial;">Soy una persona con muchos intereses y gustos diferentes. Estoy terminando la secundaria y tengo ganas de trabajar en un lugar donde pueda aprender y crecer como profesional.<br>
-			Siento que podria integrarme en un equipo de trabajo y soy muy responsable en las tareas que me corresponden.</p>			
-		
-	</div>
-	<div id="pie">
-	<p>Domicilio: Venezuela 2441, Gerli,Avellaneda, Pcia. de Bs.As. | Tel: 4-205-0487 | Movil: 11-5042-1581</p>
-	</div>
-	
-
-</div>
-
-
-
-</body>
+    <body>
+        <div id="encabezado">
+            <h1 id="nombre">Joaquín G. Messina</h1>
+            <h2 id="perfil">Web Developer <sup>(Jr.)</sup></h2>
+            <ul id="contacto">
+                <li>
+                    <a href="https://github.com/joamessina" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:joaquin.messina@gmail.com">
+                        <i class="far fa-envelope"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://api.whatsapp.com/send?phone=5491150421581">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="skype:joaquin.messina?chat">
+                        <i class="fab fa-skype"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="izquierda">
+            <a href="mailto:joaquin.messina@gmail.com" class="yo"><img src="img/joa.jpg"></a>
+            <ul id="menu">
+                <li class="boton"><a href="#presentacion">Presentación</a></li>
+                <li class="boton"><a href="#formacion">Formación</a></li>
+                <li class="boton"><a href="#experiencia">Experiencia</a></li>
+                <li class="boton"><a href="#portfolio">Portfolio</a></li>
+            </ul>
+        </div>
+        <div class="derecha">
+            <h3>¿Quién soy?</h3>
+            <!-- Presentacion -->
+            <h4 id="presentacion">Datos Personales</h4>
+            <ul>
+                <li>Nombre: Joaquín Gabriel Messina.</li>
+                <li>Edad: 18 Años.</li>
+                <li>DNI: 42.346.609</li>
+                <li>Dirección: Venezuela 2441</li>
+                <li>Email: joaquin.messina@gmail.com</li>
+                <li>Telefono: +54 11-5042-1581</li>
+                <li>Skype: joaquin.messina</li>
+            </ul>
+            <p>Soy una persona con muchos intereses y gustos diferentes. Estoy terminando la secundaria y tengo ganas de trabajar en un lugar donde pueda aprender y crecer como profesional.</p>
+            <p>Siento que podria integrarme en un equipo de trabajo y soy muy responsable en las tareas que me corresponden.</p>
+            <!-- Formacion -->
+            <h4 id="formacion">Formación</h4>
+            <p>Estoy cursando la orientación de programacion de la secundaria E.E.S.T. Nº 5 "John F. Kennedy" ubicada en Lanus. Elegí esta orientación porque me pareció interesante el mundo del Diseño Web, me gustan las materias que veo de programación en las cuales tengo notas altas. Espero poder trabajar de la programación ya que me parece interesante y a medida que voy aprendiendo mas me va gustando cada vez mas y mas.</p><br>
+            <ul>
+                <li>Técnico en Programación – E.E.S.T. Nº 5 "John F. Kennedy" Lanús (2012 – Actualidad)</li>
+                <li>Desarrollador Web Fullstack – Escuela Argentina de Nuevas Tecnologias CABA (2017)</li>
+            </ul>
+            <!-- Experiencia -->
+            <h4 id="experiencia">Experiencia</h4>
+            <ul>
+                <li>Técnico y soporte de PC/Mac/GNU-Linux independiente (3 años).</li>
+                <li>Responsable de venta y soporte tecnico – Los de Sistemas (10 meses).</li>
+            </ul>
+            <!-- Portfolio -->
+            <h4 id="portfolio">Portfolio</h4>
+            <ul>
+                <li>(En desarrollo)</li>
+            </ul>
+        </div>
+        <div id="pie">
+            <p>Domicilio: Venezuela 2441, Gerli,Avellaneda, Pcia. de Bs.As. | Tel: 4-205-0487 | Movil: 11-5042-1581</p>
+        </div>
+    </body>
 </html>
